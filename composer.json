@@ -1,0 +1,25 @@
+{
+    "name": "theOpenEyes/cache",
+    "description": "First custom packages",
+     "keywords": [
+      "test",
+      "test processing"
+    ],
+    "homepage": "https://theopeneyes.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OpenEyes"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenEyes\\cache\\": "src/"
+        }
+    }
+    
+}
+
